@@ -21,7 +21,7 @@ Arduino มาสร้างเป็นการทอยลูกเต๋า
 - Pushbutton switch
 <img src="http://www.warf.com/imagesitem/original/3494_1597.jpg" width="150px">
 - Jumper Wires
-<img src="https://th.element14.com/productimages/large/en_GB/3617772-40.jpg" width="150px">
+<img src="https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_843,q_auto,w_1500/c_pad,h_843,w_1500/F7916450-01?pgw=1&pgwact=1" width="150px">
 - Resistor 1k ohm
 <img src="https://m.media-amazon.com/images/I/51l9hdTlmjL._SL1001_.jpg" width="150px">
 - Resistor 220 ohm
