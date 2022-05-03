@@ -49,6 +49,7 @@ Arduino มาสร้างโครงงานการทอยลูกเ
 2.      ฟังก์ชั่นการ random ตัวเลขจะเริ่มทำการสุ่มตัวเลขขึ้นมาและจะเริ่มการทำงานทันที
 3.      เมื่อมีการสุ่มตัวเลขทั้งหมดเสร็จ หลอดไฟ LED ทั้ง6ดวงจะขึ้นตามตัวเลขที่ฟังก์ชั่น random ได้ลูปขึ้นมา
 4.      หลังจากนั้น 7-segment display จะขึ้นตามตัวเลขที่หลอดไฟ LED ที่ได้ปรากฎเมื่อสักครู่
+<img src="https://github.com/nickanyp/Project-Compro/blob/main/Circuit%20Smart%20Dice.PNG?raw=true width="200px">
 โปรแกรมการทำงานของวงจร Smart Dice : https://www.tinkercad.com/things/0Q0A5c8MR0S-bodacious-luulia/editel?sharecode=c8WC7zmIZEIyshW-YH5nPVlcUAl67TDmga5AnHoQYaM
 
 # Source Code
