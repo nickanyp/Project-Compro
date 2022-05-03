@@ -13,7 +13,7 @@ Arduino มาสร้างเป็นการทอยลูกเต๋า
 - สามารถทอยลูกเต๋าได้โดยที่ไม่จำเป็นทอยลูกเต๋า เพื่อไม่ให้เกิดการเปลืองทรัพยากร
 - ได้ฝึกการเขียนโปรแกรมด้วยภาษาC
 - สามารถนำการต่อบอร์ด Arduino มาประยุกต์ใช้ได้
-# อุปกรณ์
+<h3>อุปกรณ์</h3>
 - Arduino UNO
 <img src="https://www.ai-corporation.net/wp-content/uploads/2021/11/37_r1.jpg" width="150px">
 - LED
@@ -30,8 +30,8 @@ Arduino มาสร้างเป็นการทอยลูกเต๋า
 <img src="http://www.warf.com/imagesitem/original/3517_1597.jpg" width="150px">
 - Breadboard Small
 <img src="https://cdn-shop.adafruit.com/970x728/65-00.jpg" width="150px">
-# หลักการทำงาน
-# SourceCode
+<h3>หลักการทำงาน</h3>
+</h3>SourceCode</h3>
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074275949834280/1.PNG">
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276218261554/2.PNG">
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276503486484/3.PNG">
