@@ -19,7 +19,7 @@ Arduino มาสร้างเป็นการทอยลูกเต๋า
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276218261554/2.PNG">
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276503486484/3.PNG">
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276964831282/4.PNG">
-<img src=https://cdn.discordapp.com/attachments/963437675103289404/971074277170376734/5.PNG">
+<img src="https://cdn.discordapp.com/attachments/963437675103289404/971074277170376734/5.PNG">
 
 # Member
 1.      นายนันทนนท์ จินขุนทอง 64070057
