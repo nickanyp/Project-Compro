@@ -49,7 +49,7 @@ Arduino มาสร้างเป็นการทอยลูกเต๋า
 3.      เมื่อมีการสุ่มตัวเลขทั้งหมดเสร็จ หลอดไฟ LED ทั้ง6ดวงจะขึ้นตามตัวเลขที่ฟังก์ชั่น random ได้ลูปขึ้นมา
 4.      หลังจากนั้น 7-segment display จะขึ้นตามตัวเลขที่หลอดไฟ LED ที่ได้ปรากฎเมื่อสักครู่
 
-# SourceCode
+# Source Code
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074275949834280/1.PNG">
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276218261554/2.PNG">
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276503486484/3.PNG">
