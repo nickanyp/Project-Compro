@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objective - Smart Dice</title>
+    <script src="../static/js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Kanit&family=Mitr:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <i id="iconmenu" class="ri-menu-line iconmenu" onmouseover="openNav()" onmouseout="closeNav()"></i>
+
+    <div id="mySidenav" class="sidenav" onmouseover="openNav()" onmouseout="closeNav()">
+        <i class="ri-menu-line iconmenu"></i>
+        <a href="/templates/index.html">HOME</a>
+        <a href="/templates/objective.html">Objective</a>
+        <a href="/templates/equip.html">อุปกรณ์</a>
+        <a href="/templates/code.html">Source Code</a>
+        <a href="/templates/work.html">หลักการทำงาน</a>
+        <a href="/templates/vdo.html">VDO</a>
+        <a href="/templates/poster.html">Poster</a>
+        <a href="/templates/member.html">Members</a>
+    </div>
+    <!-- navbar -->
+    <p class="headobj">Objective</p>
+    <p class="txtobj">&emsp;ในปัจจุบันอินเทอร์เน็ตได้เข้ามามีบทบาทในชีวิตประจำวันของเราเป็นอย่างมาก และคนส่วนใหญ่มีการใช้อินเทอร์เน็ต<br>กันมากขึ้น ทางคณะผู้จัดทำจึงได้นำความรู้เกี่ยวกับการต่อบอร์ด Arduino มาสร้างโครงงานการทอยลูกเต๋าออนไลน์<br>เนื่องจากลูกเต๋าเป็นสิ่งที่มีขนาดเล็กอาจทำให้เกิดการสูญหายได้หากต้องซื้อใหม่จะเป็นการสิ้นเปลืองเงินและทรัพยากร<br>จึงได้ตัดสินใจจัดทำโครงงานนี้ขึ้นมาเพื่อเพิ่มความสะดวกสบายให้แก่ผู้ใช้งาน</p>
+    <p class="txtobj2">1.เพื่อให้ได้รับความสะดวกและรวดเร็วในการทอยลูกเต๋ามากยิ่งขึ้น
+        <br>2.เพื่อให้ได้ใช้เป็นสื่อในการเรียนการสอนในด้านต่างๆ
+        <br>3.สามารถสร้างวงจรจำลองการทอยลูกเต๋า</p>
+    <img class="imgdiceobj" src="/static/img/6.png">
+    <svg width="100%" height="100%" viewBox="0 0 100 100" style="position: absolute;">
+        <path d="M-100,70 l260,40 l-270,0" fill="#fff">
+            <animate attributeName="fill" values="#94B0B7; #fff;" dur="3" repeatCount="1"/>
+        </path>
+    </svg>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</html>

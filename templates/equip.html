@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อุปกรณ์ - Smart Dice</title>
+    <script src="../static/js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Kanit&family=Mitr:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <i id="iconmenu" class="ri-menu-line iconmenu" onmouseover="openNav()" onmouseout="closeNav()"></i>
+
+    <div id="mySidenav" class="sidenav" onmouseover="openNav()" onmouseout="closeNav()">
+        <i class="ri-menu-line iconmenu"></i>
+        <a href="/templates/index.html">HOME</a>
+        <a href="/templates/objective.html">Objective</a>
+        <a href="/templates/equip.html">อุปกรณ์</a>
+        <a href="/templates/code.html">Source Code</a>
+        <a href="/templates/work.html">หลักการทำงาน</a>
+        <a href="/templates/vdo.html">VDO</a>
+        <a href="/templates/poster.html">Poster</a>
+        <a href="/templates/member.html">Members</a>
+    </div>
+    <!-- navbar -->
+
+    <p class="headequip">อุปกรณ์</p>
+    <img class="imgequip" style="top: 22%; left: 12%;"src="/static/img/7.png">
+    <img class="imgequip" style="top: 22%; left: 33%;"src="/static/img/8.png">
+    <img class="imgequip" style="top: 22%; left: 56%;"src="/static/img/9.png">
+    <img class="imgequip" style="top: 22%; left: 77%;"src="/static/img/10.png">
+    <img class="imgequip" style="top: 60%; left: 12%;"src="/static/img/11.png">
+    <img class="imgequip" style="top: 60%; left: 35%;"src="/static/img/12.png">
+    <img class="imgequip" style="top: 60%; left: 57%;"src="/static/img/13.png">
+    <img class="imgequip" style="top: 60%; left: 75%;"src="/static/img/14.png">
+
+    <p class="txtequip" style="top: 48%; left: 13%;">Arduino UNO</p>
+    <p class="txtequip" style="top: 48%; left: 35%;"> Breadboard Small </p>
+    <p class="txtequip" style="top: 48%; left: 60.5%;">LED</p>
+    <p class="txtequip" style="top: 48%; left: 74%;">7 Segment Display</p>
+    <p class="txtequip" style="top: 84%; left: 11%;">Pushbutton switch</p>
+    <p class="txtequip" style="top: 84%; left: 35%;">Resistor 220 ohm</p>
+    <p class="txtequip" style="top: 84%; left: 57%;">Resistor 1k ohm</p>
+    <p class="txtequip" style="top: 84%; left: 77%;">Jumper Wires</p>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</html>

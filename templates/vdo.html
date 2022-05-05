@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - Smart Dice</title>
+    <script src="../static/js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Kanit&family=Mitr:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <i id="iconmenu" class="ri-menu-line iconmenu" onmouseover="openNav()" onmouseout="closeNav()"></i>
+
+    <div id="mySidenav" class="sidenav" onmouseover="openNav()" onmouseout="closeNav()">
+        <i class="ri-menu-line iconmenu"></i>
+        <a href="/templates/index.html">HOME</a>
+        <a href="/templates/objective.html">Objective</a>
+        <a href="/templates/equip.html">อุปกรณ์</a>
+        <a href="/templates/code.html">Source Code</a>
+        <a href="/templates/work.html">หลักการทำงาน</a>
+        <a href="/templates/vdo.html">VDO</a>
+        <a href="/templates/poster.html">Poster</a>
+        <a href="/templates/member.html">Members</a>
+    </div>
+    <!-- navbar -->
+    <iframe width="1200px" height="650px" src="https://www.youtube.com/embed/vNhkyRTJzG8" >
+    </iframe>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</html>

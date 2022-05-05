@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    display:flex;
+    height:720px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #94B0B7 , #DDDDDA);
+    font-family: 'Mitr', sans-serif;
+}
+
+.iconmenu {
+    margin: 15px;
+    font-size: 30px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 1;
+    background: #4A707A;
+    overflow-x: hidden;
+    transition: all 1s;
+}
+
+.sidenav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display:block;
+}
+
+.sidenav a:hover {
+    color: #343434;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 0%;
+}
+
+.head {
+    font-size: 60px;
+    margin-top: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.mem{
+    font-size: 20px;
+    margin-top: -25px;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+}
+
+.headindex{
+    position: relative;
+    font-size: 120px;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    color: #ffffff;
+    animation: headindexmove 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes headindexmove {
+    from {top: -60%;}
+    to {top: 0%;}
+}
+
+.imgdice {
+    position: absolute;
+    top: -2%;
+    opacity: 40%;
+}
+
+.bghead{
+    width: 1000px;
+    height: 150px;
+    background-color: #4A707A;
+    position:absolute;
+    animation: bghead 6s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bghead {
+    0% {width: 0px;}
+    50% {width: 0px;}
+    100% {width: 1000px;}
+}
+
+.txtobj {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    top:10%;
+    left: 14%;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+.txtobj2 {
+    font-size: 22px;
+    position: absolute;
+    top:55%;
+    left: 16%;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+.headobj{
+    font-size: 65px;
+    position: absolute;
+    top: 30%;
+    left:20%;
+    font-weight: bolder;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+.imgdiceobj {
+    position: absolute;
+    width: 550px;
+    top: 42%;
+    right: 5%;
+    transform: rotate(-35deg);
+    animation: diceobj 2s infinite;
+}
+
+@keyframes diceobj {
+    0%{top: 40%;}
+    50%{top: 46%;}
+    100%{top: 40%;}
+}
+
+.headequip{
+    font-size: 65px;
+    position: absolute;
+    top:-6%;
+    left:42%;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+    color: #ffffff;
+}
+
+.imgequip {
+    height: 180px;
+    position: absolute;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+.imgequip:hover {
+    zoom: 110%;
+}
+
+.txtequip {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #303030;
+    position: absolute;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+.headcode {
+    font-size: 90px;
+    font-weight: bolder;
+    position: absolute;
+    color: #484848;
+    top: 3%;
+    left: 8%;
+    animation: headcode 3s;
+    animation-iteration-count: 1;
+}
+
+.boxcode {
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #83a6b0;
+    position: absolute;
+    left: 49%;
+    top: 8%;
+    overflow:scroll;
+    color: #ffffff;
+}
+
+.imgcode {
+    height: 250px;
+    position:absolute;
+    top: 40%;
+    left: 14%;
+    border-radius: 10px;
+    animation: imgcode 3s ;
+    animation-iteration-count: 1;
+}
+
+@keyframes headcode {
+    from{top: -50%;}
+    to{top:3%;}
+}
+
+@keyframes imgcode {
+    from{left: 50%;}
+    to{left:14%;}
+}
+
+.poster {
+    height: 685px;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+.dice1 {
+    position: absolute;
+    opacity: 50%;
+    width: 800px;
+    animation: dice1 8s infinite;
+}
+
+.dice2 {
+    position: absolute;
+    left: 53%;
+    top: 45%;
+    opacity: 50%;
+    width: 600px;
+    animation: dice2 8s infinite;
+}
+
+@keyframes dice1 {
+    0% {opacity: 50%;}
+    50% {opacity: 0%;}
+    100% {opacity: 50%;}
+}
+
+@keyframes dice2 {
+    0% {opacity: 0%;}
+    50% {opacity: 50%;}
+    100% {opacity: 0%;}
+}
+
+video {
+    position: absolute;
+    top:30%;
+    left: 5%;
+    border-radius: 20px;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+.txtwork {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    animation: fade 3s;
+    animation-iteration-count: 1;
+}
+
+.headwork {
+    position: absolute;
+    top: -5%;
+    left: 25%;
+    font-size: 80px;
+    font-weight: bolder;
+    color: #ffffff;
+    animation: headwork 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes headwork {
+    from {top: -20%;}
+    to {top: -5%;}
+}
+
+.imgwork {
+    opacity: 30%;
+    position: absolute;
+    top: 50%;
+}
+
+iframe {
+    position: absolute;
+    top: 5%;
+    left: 11.5%;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source Code- Smart Dice</title>
+    <script src="../static/js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Kanit&family=Mitr:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <i id="iconmenu" class="ri-menu-line iconmenu" onmouseover="openNav()" onmouseout="closeNav()"></i>
+
+    <div id="mySidenav" class="sidenav" onmouseover="openNav()" onmouseout="closeNav()">
+        <i class="ri-menu-line iconmenu"></i>
+        <a href="/templates/index.html">HOME</a>
+        <a href="/templates/objective.html">Objective</a>
+        <a href="/templates/equip.html">อุปกรณ์</a>
+        <a href="/templates/code.html">Source Code</a>
+        <a href="/templates/work.html">หลักการทำงาน</a>
+        <a href="/templates/vdo.html">VDO</a>
+        <a href="/templates/poster.html">Poster</a>
+        <a href="/templates/member.html">Members</a>
+    </div>
+    <!-- navbar -->
+
+    <p class="headcode">Source Code</p>
+    <img class="imgcode" src="/static/img/15.png">
+    <div class="boxcode">
+        <p style="margin-left: 30px;">
+            void setup() {
+        <br>&emsp;&emsp;pinMode(0, INPUT);
+        <br>&emsp;&emsp;pinMode(1, OUTPUT);
+        <br>&emsp;&emsp;pinMode(2, OUTPUT);
+        <br>&emsp;&emsp;pinMode(3, OUTPUT);
+        <br>&emsp;&emsp;pinMode(4, OUTPUT);
+        <br>&emsp;&emsp;pinMode(5, OUTPUT);
+        <br>&emsp;&emsp;pinMode(6, OUTPUT);
+        <br>&emsp;&emsp;pinMode(7, OUTPUT);
+        <br>&emsp;&emsp;pinMode(8, OUTPUT);
+        <br>&emsp;&emsp;pinMode(9, OUTPUT);
+        <br>&emsp;&emsp;pinMode(10, OUTPUT);
+        <br>&emsp;&emsp;pinMode(11,OUTPUT);
+        <br>&emsp;&emsp;pinMode(12, OUTPUT);
+        <br>&emsp;&emsp;pinMode(13,OUTPUT);
+        <br>}
+        <br>
+        <br>void showNumber(int number) {
+        <br>&emsp;&emsp;if (number == 1)
+        <br>&emsp;&emsp;{
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(7, HIGH); //A
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(8, LOW); //B
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(9, LOW);//C
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(10, HIGH); //D
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(11, HIGH); //E
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(12, HIGH); //F
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(13, HIGH); //G
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number == 2)
+        <br>&emsp;&emsp;{
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(7, LOW); //A
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(8, LOW); //B
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(9, HIGH);//C
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(10,LOW); //D
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(11, LOW); //E
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(12, HIGH); //F
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(13, LOW); //G
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number == 3)
+        <br>&emsp;&emsp;{
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(7, LOW); //A
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(8, LOW); //B
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(9, LOW);//C
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(10, LOW); //D
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(11, HIGH); //E
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(12, HIGH); //F
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(13, LOW); //G
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number == 4)
+        <br>&emsp;&emsp;{
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(7, HIGH); //A
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(8, LOW); //B
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(9, LOW);//C
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(10, HIGH); //D
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(11, HIGH); //E
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(12, LOW); //F
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(13, LOW); //G
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number == 5)
+        <br>&emsp;&emsp;{
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(7, LOW); //A
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(8, HIGH); //B
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(9, LOW);//C
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(10, LOW); //D
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(11, HIGH); //E
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(12, LOW); //F
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(13, LOW); //G
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number == 6)
+        <br>&emsp;&emsp;{
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(7, LOW); //A
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(8, HIGH); //B
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(9, LOW);//C
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(10, LOW); //D
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(11, LOW); //E
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(12, LOW); //F
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(13, LOW); //G
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;digitalWrite(1, HIGH);
+        <br>&emsp;&emsp;if (number >= 2) {
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(2, HIGH);
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number >= 3) {
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(3, HIGH);    
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number >= 4) {
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(4, HIGH);    
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number >= 5) {
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(5, HIGH);    
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;if (number == 6) {
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(6, HIGH);    
+        <br>&emsp;&emsp;}
+        <br>}
+        <br>
+        <br>void buildUpTension() {
+        <br>&emsp;&emsp;// left to right
+        <br>&emsp;&emsp;for (int i=1;i<=6;i++) {
+        <br>&emsp;&emsp;&emsp;&emsp;if (i!=1) {
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;digitalWrite(i-1, LOW);
+        <br>&emsp;&emsp;&emsp;&emsp;}
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(i, HIGH);
+        <br>&emsp;&emsp;&emsp;&emsp;delay(100);
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;// right to left
+        <br>&emsp;&emsp;for (int i=6;i>=1;i--) {
+        <br>&emsp;&emsp;&emsp;&emsp;if (i!=6) {
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;digitalWrite(i+1, LOW);
+        <br>&emsp;&emsp;&emsp;&emsp;}
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(i, HIGH);
+        <br>&emsp;&emsp;&emsp;&emsp;delay(100);
+        <br>&emsp;&emsp;}
+        <br>}
+        <br>
+        <br>int throwDice() {
+        <br>&emsp;&emsp;int randNumber = random(1,7);
+        <br>
+        <br>&emsp;&emsp;#ifdef DEBUG
+        <br>&emsp;&emsp;Serial.println(randNumber);
+        <br>&emsp;&emsp;#endif
+        <br>
+        <br>&emsp;&emsp;return randNumber;
+        <br>}
+        <br>
+        <br>void setAllLEDs(int value) {
+        <br>&emsp;&emsp;for (int i=1; i<=6; i++) {
+        <br>&emsp;&emsp;&emsp;&emsp;digitalWrite(i, value);
+        <br>&emsp;&emsp;}
+        <br>}
+        <br>
+        <br>void loop() {
+        <br>    
+        <br>&emsp;&emsp;if (digitalRead(0) == LOW) {
+        <br>&emsp;&emsp;&emsp;&emsp;// remove previous number
+        <br>&emsp;&emsp;&emsp;&emsp;setAllLEDs(LOW);
+        <br>
+        <br>&emsp;&emsp;&emsp;&emsp;buildUpTension();
+        <br>&emsp;&emsp;&emsp;&emsp;int thrownNumber = throwDice();
+        <br>&emsp;&emsp;&emsp;&emsp;showNumber(thrownNumber);
+        <br>&emsp;&emsp;}
+        <br>&emsp;&emsp;else {
+        <br>    
+        <br>&emsp;&emsp;}
+        <br>}
+        </p>
+    </div>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</html>
