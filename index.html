@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <script src="../static/js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Kanit&family=Mitr:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <i id="iconmenu" class="ri-menu-line iconmenu" onmouseover="openNav()" onmouseout="closeNav()"></i>
+
+    <div id="mySidenav" class="sidenav" onmouseover="openNav()" onmouseout="closeNav()">
+        <i class="ri-menu-line iconmenu"></i>
+        <a href="/templates/index.html">HOME</a>
+        <a href="/templates/objective.html">Objective</a>
+        <a href="/templates/equip.html">อุปกรณ์</a>
+        <a href="/templates/code.html">Source Code</a>
+        <a href="/templates/work.html">วิธีการใช้งาน</a>
+        <a href="/templates/vdo.html">VDO</a>
+        <a href="/templates/poster.html">Poster</a>
+        <a href="/templates/member.html">Members</a>
+    </div>
+    <!-- navbar -->
+
+    <div class="container" style="justify-content: center; display: flex; flex-direction: row;">
+        <img class="imgdice" src="/static/img/4.png">
+        <div class="bghead"></div>
+        <div class="headindex">SMART DICE</div>
+    </div>
+    <svg width="100%" height="100%" viewBox="0 0 100 100" style="position: absolute;">
+        <path d="M-100,60 l260,40 l-260,0" fill="#fff">
+            <animate attributeName="fill" values="#94B0B7; #fff;" dur="3" repeatCount="1"/>
+        </path>
+        <path d="M200,0 l-260,0 l260,40 " fill="#94B0B7">
+            <animate attributeName="fill" values=" #fff; #94B0B7;" dur="3" repeatCount="1"/>
+        </path>
+    </svg>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</html>
