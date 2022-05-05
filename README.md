@@ -4,9 +4,6 @@
 # Poster
 <img src="https://github.com/nickanyp/Project-Compro/blob/main/Poster.png?raw=true" width="100%">
 
-# YouTube สาธิตการทำงาน
-https://www.youtube.com/watch?v=vNhkyRTJzG8
-
 # ที่มาของโครงงาน
 &emsp;&emsp;ในปัจจุบันอินเทอร์เน็ตได้เข้ามามีบทบาทในชีวิตประจำวันของเราเป็นอย่างมาก และคนส่วนใหญ่มีการใช้อินเทอร์เน็ตกันมากขึ้น ทางคณะผู้จัดทำจึงได้นำความรู้เกี่ยวกับการต่อบอร์ด
 Arduino มาสร้างโครงงานการทอยลูกเต๋าออนไลน์ เนื่องจากลูกเต๋าเป็นสิ่งที่มีขนาดเล็กอาจทำให้เกิดการสูญหายได้หากต้องซื้อใหม่จะเป็นการสิ้นเปลืองเงินและทรัพยากร จึงได้ตัดสินใจจัดทำโครงงานนี้ขึ้นมาเพื่อเพิ่มความสะดวกสบายให้แก่ผู้ใช้งาน
@@ -55,6 +52,9 @@ Arduino มาสร้างโครงงานการทอยลูกเ
 <img src="https://github.com/nickanyp/Project-Compro/blob/main/Circuit%20Smart%20Dice.PNG?raw=true">
 
 โปรแกรมการทำงานของวงจร Smart Dice : https://www.tinkercad.com/things/0Q0A5c8MR0S-bodacious-luulia/editel?sharecode=c8WC7zmIZEIyshW-YH5nPVlcUAl67TDmga5AnHoQYaM
+
+# YouTube สาธิตการทำงาน
+https://www.youtube.com/watch?v=vNhkyRTJzG8
 
 # Source Code
 <img src="https://cdn.discordapp.com/attachments/963437675103289404/971074275949834280/1.PNG">
