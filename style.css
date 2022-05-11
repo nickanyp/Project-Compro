@@ -149,7 +149,7 @@ body {
 
 .imgdiceobj {
     position: absolute;
-    width: 550px;
+    width: 40%;
     top: 42%;
     right: 5%;
     transform: rotate(-35deg);
