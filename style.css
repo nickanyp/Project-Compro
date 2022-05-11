@@ -120,7 +120,7 @@ body {
 .txtobj {
     font-size: 100%;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     position: absolute;
     top:10%;
     left: 14%;
