@@ -1,7 +1,7 @@
 body {
     margin: 0;
     display:flex;
-    height:720px;
+    height:900px;
     overflow: hidden;
     background: linear-gradient(to bottom, #94B0B7 , #DDDDDA);
     font-family: 'Mitr', sans-serif;
