@@ -118,7 +118,7 @@ body {
 }
 
 .txtobj {
-    font-size: 100%;
+    font-size: 150%;
     font-weight: bold;
     letter-spacing: 1px;
     position: absolute;
@@ -129,10 +129,10 @@ body {
 }
 
 .txtobj2 {
-    font-size: 130%;
+    font-size: 140%;
     position: absolute;
-    top:55%;
-    left: 16%;
+    top:53%;
+    left: 13%;
     animation: fade 3s;
     animation-iteration-count: 1;
 }
@@ -140,7 +140,7 @@ body {
 .headobj{
     font-size: 350%;
     position: absolute;
-    top: 30%;
+    top: 32%;
     left:20%;
     font-weight: bolder;
     animation: fade 3s;
