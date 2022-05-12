@@ -82,23 +82,26 @@ body {
 }
 
 .headindex{
-    position: relative;
+    position: absolute;
     font-size: 120px;
     font-weight: bolder;
     letter-spacing: 20px;
     color: #ffffff;
     animation: headindexmove 3s;
     animation-iteration-count: 1;
+    top: 35%;
+    left: 22%;
 }
 
 @keyframes headindexmove {
     from {top: -60%;}
-    to {top: 0%;}
+    to {top: 35%;}
 }
 
 .imgdice {
     position: absolute;
     top: -2%;
+    left: 17%;
     opacity: 40%;
 }
 
@@ -109,6 +112,8 @@ body {
     position:absolute;
     animation: bghead 6s;
     animation-iteration-count: 1;
+    top: 38%;
+    left: 18.5%;
 }
 
 @keyframes bghead {
