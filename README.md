@@ -51,6 +51,9 @@ Arduino มาสร้างโครงงานการทอยลูกเ
 4.      หลังจากนั้น 7-segment display จะขึ้นตามตัวเลขที่หลอดไฟ LED ที่ได้ปรากฎเมื่อสักครู่
 <img src="https://github.com/nickanyp/Project-Compro/blob/main/Circuit%20Smart%20Dice.PNG?raw=true">
 
+# Website Project
+https://nickanyp.github.io/Project-Compro/
+
 โปรแกรมการทำงานของวงจร Smart Dice : https://www.tinkercad.com/things/0Q0A5c8MR0S-bodacious-luulia/editel?sharecode=c8WC7zmIZEIyshW-YH5nPVlcUAl67TDmga5AnHoQYaM
 
 # YouTube สาธิตการทำงาน
